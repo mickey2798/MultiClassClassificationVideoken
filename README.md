@@ -1,2 +1,18 @@
 # MultiClassClassificationVideoken
-Given 5GB of Image data, problem was to classify each image out of these 'codewalk', 'handwritten', 'misc', 'slides'.
+MultiClass Classification of 'codewalk', 'handwritten', 'misc', 'slides'. Used my own build custom network
+
+['codewalk', 'handwritten', 'misc', 'slides']
+[[362   6  18  35]
+ [ 10 500 108  16]
+ [ 23  86 274  72]
+ [ 17  23  65 460]]
+              precision    recall  f1-score   support
+
+    codewalk       0.88      0.86      0.87       421
+ handwritten       0.81      0.79      0.80       634
+        misc       0.59      0.60      0.60       455
+      slides       0.79      0.81      0.80       565
+
+    accuracy                           0.77      2075
+   macro avg       0.77      0.77      0.77      2075
+weighted avg       0.77      0.77      0.77      2075
