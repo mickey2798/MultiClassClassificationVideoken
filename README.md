@@ -2,10 +2,7 @@
 MultiClass Classification of 'codewalk', 'handwritten', 'misc', 'slides'. Used my own build custom network
 
 ['codewalk', 'handwritten', 'misc', 'slides']
-[[362   6  18  35]
- [ 10 500 108  16]
- [ 23  86 274  72]
- [ 17  23  65 460]]
+
               precision    recall  f1-score   support
 
     codewalk       0.88      0.86      0.87       421
